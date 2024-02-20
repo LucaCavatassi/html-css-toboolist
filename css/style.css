@@ -6,45 +6,72 @@
     font-family: Arial, sans-serif;
 }
 
+/* COMMON ELEMENTS BORDERS */
 .roundedbrdr{
     border: 1px solid lightgrey;
     border-radius: 5px;  
 }
 
-.osblue{
-    background-color: rgb(23 170 245);
-}
-
+/* COMMON TAG STYLE */
 .tag{
     border-radius: 25px;
     padding: 5px 10px;
     font-size: 13px;
 }
 
+/* COMMON TAG-COLORS */
+.osblue{
+    background-color: rgb(23 170 245);
+}
+.purple{
+    background-color: blueviolet;
+}
+.aqua{
+    background-color: rgb(46 198 171);
+}
+.orange{
+    background-color: orange;
+}
+.pink{
+    background-color: hotpink;
+}
+.green{
+    background-color:lawngreen;
+}
+
+/* COMMON TEXT COLOR AND STYLE */
+
 .whitetext {
     color: white;
 }
-
 .greytext {
     color: grey;
-}
-
-ul{
-    list-style: none;
-    text-align: left;
 }
 
 .done{
     text-decoration: line-through;
 }
 
+/* COMMON LIST STYLE */
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+
+/* COMMON BOX AND SPACING */
 .taskbox{
     background-color: white;
     line-height: 35px;
     padding: 0 20px;
-    margin: 10px 0 25px;
+    margin: 10px;
 }
 
+.spacing{
+    padding-bottom: 40px;
+}
+
+/*  COMMON COMPLETED TASK & UNCOMPLETED TASK  */
 .check{
     display: inline-block;
     width: 15px;
@@ -52,12 +79,18 @@ ul{
     border-radius: 50%;
     line-height: 15px;
     text-align: center;
-    color: rgb(46 198 171);
-    border: 1px solid rgb(46 198 171);
     font-size: 10px;
     vertical-align: middle;
 }
 
+.completed{
+    color: rgb(46 198 171);
+    border: 1px solid rgb(46 198 171);
+}
+.uncompleted{
+    color: red;
+    border: 1px solid red;
+}
 
 
 /* HEADER */
@@ -92,5 +125,6 @@ input{
 /* LISTS */
 .alltasklist{
     margin: 10% 10%;
+
 }
 
