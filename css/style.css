@@ -6,8 +6,40 @@
     font-family: Arial, sans-serif;
 }
 
+.roundedbrdr{
+    border: 1px solid lightgrey;
+    border-radius: 10px;  
+}
+
+.osblue{
+    background-color: rgb(23 170 245);
+}
+
+.whitetext {
+    color: white;
+}
+
 /* HEADER */
 header{
     text-align: center;
     background-color: rgb(237 242 246);
+}
+
+/* MAIN */
+.container{
+    background-color: rgb(237 242 246);
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* INPUT BOX */
+.input-box{
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+.inputdata{
+    padding: 10px;
 }
