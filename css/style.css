@@ -8,16 +8,57 @@
 
 .roundedbrdr{
     border: 1px solid lightgrey;
-    border-radius: 10px;  
+    border-radius: 5px;  
 }
 
 .osblue{
     background-color: rgb(23 170 245);
 }
 
+.tag{
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
 .whitetext {
     color: white;
 }
+
+.greytext {
+    color: grey;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.taskbox{
+    background-color: white;
+    line-height: 35px;
+    padding: 0 20px;
+    margin: 10px 0 25px;
+}
+
+.check{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    line-height: 15px;
+    text-align: center;
+    color: rgb(46 198 171);
+    border: 1px solid rgb(46 198 171);
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+
 
 /* HEADER */
 header{
@@ -43,3 +84,13 @@ header{
 .inputdata{
     padding: 10px;
 }
+
+input{
+    width: 20em;
+}
+
+/* LISTS */
+.alltasklist{
+    margin: 10% 10%;
+}
+
